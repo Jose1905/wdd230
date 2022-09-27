@@ -1,0 +1,33 @@
+@media (min-width: 850px) {    
+    body {
+        max-width: 1250px;
+    }
+    
+    main {
+        padding: 2%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 2%;
+    }
+    
+    .proximity {
+        grid-column: 1/2;
+    }
+
+    .proximity h1{
+        font-size: 3.5em;
+        padding: 5.5%
+    }
+    
+    .white-space {
+        grid-column: 2/3;
+    }
+
+    .white-space h1{
+        font-size: 2em;
+    }
+    
+    .repetition {
+        grid-column: 1/3;
+    }
+}

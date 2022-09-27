@@ -4,10 +4,11 @@ body {
     background-color: #fcfbfb;
     font-size: 22px;
     padding: 0;
+    font-family: 'Raleway', arial, sans-serif;
 }
 
 header {
-    font-family: "Times New Roman", Arial, serif;
+    font-family: arial, sans-serif;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     background-color:#033b72;
@@ -16,12 +17,12 @@ header {
 }
 
 main {
-    font-family: Arial, serif;
+    font-family: 'Raleway', arial, sans-serif;
 }
 
 footer {
     color: white;
-    font-family: "Times New Roman", Arial, serif;
+    font-family: 'Raleway', arial, sans-serif;
     background-color:#033b72;
     justify-self: center;
     align-self: center;
@@ -51,12 +52,10 @@ footer {
 }
 
 h1 {
-    font-family: "Times New Roman", Arial, serif;
     font-size: 3em;
 }
 
 h2 {
-    font-family: Arial, serif;
     font-size: 2em;
 }
 

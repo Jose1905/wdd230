@@ -1,0 +1,8 @@
+
+@media (min-width: 32.5em) {    
+    .linklist ul{
+        background-color: #c7baa3;
+        color:#033b72;
+        padding: 7%;
+    }
+}

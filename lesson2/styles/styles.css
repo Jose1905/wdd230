@@ -1,0 +1,118 @@
+body {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #fcfbfb;
+    font-size: 22px;
+    padding: 0;
+    font-family: 'Raleway', arial, sans-serif;
+}
+
+header {
+    font-family: arial, sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color:#033b72;
+    justify-self: center;
+    align-self: center;
+}
+
+main {
+    display: grid;
+    font-family: 'Raleway', arial, sans-serif;
+    padding: 5%;
+}
+
+footer {
+    color: white;
+    font-family: 'Raleway', arial, sans-serif;
+    background-color:#033b72;
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+    padding: 20px;
+}
+
+#student {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+.student-picture {
+    justify-self: center;
+    padding: 20px;
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+    width: 50%;
+}
+
+.student-name {
+    color: white;
+    grid-column: 2 / 5;
+    grid-row: 2 / 3;
+    text-align: left;
+    font-size: 1.5em;
+}
+
+.assignment {
+    color: white;
+    grid-column: 2 / 5;
+    grid-row: 1 / 2;
+    text-align: left;
+    font-size: 2em;
+    margin-bottom: -2%;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+p {
+    font-size: 1.3em;
+}
+
+.site-ss {
+    width: 95%;
+    margin: 2%;
+    border: 5px solid gray;
+}
+
+.principle-header {
+    background-color: #5d5d5e;
+    color: white;
+    margin: -4%;
+    margin-bottom: 1%;
+    border: 3px solid white;
+    padding: 4%;
+}
+
+.proximity {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding: 3%;
+    padding-top: 0%;
+    background-color: rgb(218, 218, 218);
+    border: 2px solid rgb(68, 68, 68);
+}
+
+.white-space {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding: 3%;
+    padding-top: 0%;
+    background-color: rgb(218, 218, 218);
+    border: 2px solid rgb(68, 68, 68);
+}
+
+.repetition {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding: 3%;
+    padding-top: 0%;
+    background-color: rgb(218, 218, 218);
+    border: 2px solid rgb(68, 68, 68);
+}
