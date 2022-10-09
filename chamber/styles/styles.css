@@ -120,80 +120,67 @@ h3 {
     font-family: var(--heading-font);
 }
 
-.linklist ul{
-    background-color: rgb(218, 218, 218);
-    padding: 50px;
-}
-
 .hero-msg {
     background-color: #c9a87d;
-    padding: 3%;
-    margin-top: 3%;
-    margin-bottom: 3%;
-    height: 200px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .event-msg {
     background-color: #c9a87d;
-    padding: 3%;
-    margin-top: 3%;
-    margin-bottom: 3%;
-    height: 200px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .weather-msg {
     background-color: #c9a87d;
-    padding: 3%;
-    margin-top: 3%;
-    margin-bottom: 3%;
-    height: 200px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .news-release-msg {
     background-color: #c9a87d;
-    padding: 3%;
-    margin-top: 3%;
-    margin-bottom: 3%;
-    height: 200px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .join-msg {
     background-color: #c9a87d;
-    padding: 3%;
-    margin-top: 3%;
-    margin-bottom: 3%;
-    height: 200px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .spotlight1-msg {
     background-color: #c9a87d;
-    padding: 3%;
-    margin-top: 3%;
-    margin-bottom: 3%;
-    height: 200px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .spotlight2-msg {
     background-color: #c9a87d;
-    padding: 3%;
-    margin-top: 3%;
-    margin-bottom: 3%;
-    height: 200px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .spotlight3-msg {
     background-color: #c9a87d;
-    padding: 3%;
-    margin-top: 3%;
-    margin-bottom: 3%;
-    height: 200px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 #spotlights {
     border-style: solid;
-    border-radius: 3%;
+    border-radius: 20px;
     border-color: var(--secondary-color);
-    padding: 3%;
-    margin-top: 3%;
-    margin-bottom: 3%;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
