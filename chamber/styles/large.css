@@ -1,0 +1,42 @@
+@media (min-width: 1400px) {    
+    main {
+        display: grid;
+        column-gap: 5%;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+    
+    #spotlights {
+        grid-row: 1/4;
+        grid-column: 4/5;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        row-gap: 3%;
+    }
+    
+    .hero-msg {
+        grid-column: 2/4;
+        grid-row: 1/3;
+    }
+
+    .news-release-msg {
+        grid-column: 2/4;
+        grid-row: 3/4;
+    }
+
+    .join-msg {
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+
+    .event-msg {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    .weather-msg {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+}

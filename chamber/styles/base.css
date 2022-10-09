@@ -1,0 +1,11 @@
+@media (max-width: 850px) {    
+    .join-msg {
+        display: none;
+    }
+
+    .spotlight3-msg {
+        display: none;
+    }
+}
+
+    
