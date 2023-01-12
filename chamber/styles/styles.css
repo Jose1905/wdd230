@@ -105,6 +105,34 @@ header h4 {
     align-self: center;
 }
 
+nav {
+    align-self: center;
+}
+
+#links {
+    display: none;
+}
+
+#links a{
+    padding: 10px;
+}
+
+#links a:link{
+    color: var(--accent2-color);
+}
+
+#links a:visited{
+    color: var(--accent1-color);
+}
+
+#navigation-menu {
+    color: var(--accent2-color);
+    width: 200px;
+    text-align: center;
+    background-color: var(--secondary-color);
+    padding: 15px;
+}
+
 h1 {
     font-size: 3em;
     font-family: var(--heading-font);

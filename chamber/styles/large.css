@@ -1,4 +1,4 @@
-@media (min-width: 1400px) {    
+@media (min-width: 1500px) {    
     main {
         display: grid;
         column-gap: 5%;
@@ -6,13 +6,22 @@
         grid-template-rows: 1fr 1fr 1fr;
     }
     
+    #navigation-menu {
+        display: none;
+    }
+
+    #links {
+        display:inline-block;
+    }
+
     #spotlights {
         grid-row: 1/4;
         grid-column: 4/5;
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
         row-gap: 3%;
+        padding-bottom:45px;
     }
     
     .hero-msg {
@@ -38,5 +47,9 @@
     .weather-msg {
         grid-column: 1/2;
         grid-row: 2/3;
+    }
+
+    .spotlight3-msg {
+        display:block;
     }
 }

@@ -1,9 +1,17 @@
 @media (max-width: 850px) {    
+    #navigation-menu:hover nav {
+        display: bloc;
+    }
+    
     .join-msg {
         display: none;
     }
 
     .spotlight3-msg {
         display: none;
+    }
+    
+    body {
+        min-width: 650px;
     }
 }
