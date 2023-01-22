@@ -72,8 +72,7 @@ footer h4 {
 /*  Design  */
 
 .color-schema {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    display: flex;
     column-gap: 3%;
 }
 
