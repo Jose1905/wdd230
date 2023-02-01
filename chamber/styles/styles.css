@@ -20,7 +20,8 @@ body {
 
 header {
     font-family: var(--heading-font);
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     background-color: var(--secondary-color);
     justify-self: center;
     align-self: center;
@@ -33,7 +34,8 @@ main {
 }
 
 footer {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     color: white;
     font-family: var(--paragraph-font);
     background-color:var(--secondary-color);
@@ -46,12 +48,16 @@ footer {
 }
 
 .site-logo {
-    width: 180px;
+    align-self: center;
+    justify-self: center;
+    max-width: 100%;
 }
 
 .site-name {
+    grid-column: 2/4;
     text-align: left;
     align-self: center;
+    font-size: 100%;
 }
 
 nav {
@@ -66,7 +72,7 @@ nav {
 }
 
 footer h4 {
-    align-self: center;
+    grid-column: 2/5;
 }
 
 /*  Design  */

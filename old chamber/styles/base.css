@@ -1,6 +1,6 @@
 @media (max-width: 850px) {    
     #navigation-menu:hover nav {
-        display: bloc;
+        display: block;
     }
     
     .join-msg {

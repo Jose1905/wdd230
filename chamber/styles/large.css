@@ -1,0 +1,9 @@
+@media (min-width: 1300px) {
+    .site-name {
+        font-size: 180%;
+    }
+
+    #links {
+        font-size: 1.2em;
+    }
+}

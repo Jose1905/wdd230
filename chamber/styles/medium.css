@@ -1,0 +1,13 @@
+@media (min-width: 850px) {
+    .site-name {
+        font-size: 100%;
+    }
+
+    #links {
+        font-size: 0.9em;
+    }
+
+    footer h4 {
+        font-size: 0.9em;
+    }
+}
