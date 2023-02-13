@@ -19,31 +19,97 @@
 </head>
 <body>
     <header>
+        
         <img class = 'site-logo' src="images/logo.jpg" alt="Dummy logo">
         <h1 class = 'site-name'>Heredia's Transaction Portal</h1>
+        
+        <!--
         <nav>
             <section id="links">
+                <a id="menu" href="#"></a>
                 <a href="index.html">Home</a>
                 <a href="purpose.html">Our Purpose</a>
                 <a href="target-audience.html">Target Audience</a>
                 <a href="design.html">Design</a>
             </section>
         </nav>
+
+        -->
+
+        <nav>
+            <ul class="navigation">
+                <li><a id="menu" href="#"></a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Feedback</a></li>
+                <li><a href="#">History</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        
+        <div class="social">
+            <a href="https://www.facebook.com/Marve-SA-106828555227169" target="_blank">
+                <img src="images/facebook.png" alt="fb icon">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="images/instagram.png" alt="instagram icon">
+            </a>
+        </div>
+        <div class="date"></div>
     </header>
 
     <main>
-        <section class="purpose">
-            <h2>Our purpose</h2>
-            <h3>We are looking to provide a new way for businesses to connect with customers and other businesses in the province of Heredia.
-                Our main purpose is to help people find what they are looking for without having to wander around the whole place for months.
-                We also aim to the ease of marketing between big companies and small new projects of the people in Heredia.</h3>
+        <section class="hero-msg">
+            <h4>Hero with site name and call to action</h4>
         </section>
+
+        <section class="event-msg">
+            <h4>Event</h4>
+        </section>
+
+        <section class="weather-msg">
+            <h4>Weather</h4>
+        </section>
+
+        <section class="news-release-msg">
+            <h4>News Release</h4>
+        </section>
+    
+        <section class="join-msg">
+            <h4>Join</h4>
+        </section>
+
+        <div id="spotlights">
+            <section class="spotlight1-msg">
+                <h4>Spotlight 1</h4>
+            </section>
+
+
+            <section class="spotlight2-msg">
+                <h4>Spotlight 2</h4>
+            </section>
+
+
+            <section class="spotlight3-msg">
+                <h4>Spotlight 3</h4>
+            </section>
+        </div>
+        
     </main>
 
     <footer>
         <img class = 'site-logo' src="images/logo.jpg" alt="Logo">
-        <h4>© 2023 | Heredia's Transaction Portal | David Vega | davarela231@gmail.com | WDD 230 Project</h4>
+        <h4 class = 'footer-text'>© 2023 | Heredia's Transaction Portal | David Vega | davarela231@gmail.com | WDD 230 Project</h4>
+        <p class = 'update-text'>Last Update: <span id="lastupdate"></span></p>
+        <a href="https://www.google.com/maps/place/Municipalidad+de+San+Rafael/@10.0144107,-84.1012239,18z/data=!4m5!3m4!1s0x8fa0e54cddd742ed:0x8ab3e5ebedb6decd!8m2!3d10.0142779!4d-84.100023?hl=es-419" target="_blank">
+            <img src="images/pin.png" alt="instagram icon" width="50">
+        </a>
     </footer>
     
+    <script src="scripts/current-date.js"></script>
+    <script src="scripts/last-update.js"></script>
+    <script src="scripts/responsive-menu.js"></script>
 </body>
 </html>

@@ -1,13 +1,44 @@
 @media (min-width: 850px) {
     .site-name {
-        font-size: 100%;
+        font-size: 1.1em;
     }
 
-    #links {
+    nav {
+        background-color: transparent;
+        grid-column: 4/5;
+        font-size: 0.6em;
+        align-self: center;
+    }
+
+    .navigation {
+		display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        column-gap: 5px;
+	}
+	
+    .navigation li {
+		display: block; /* change state in small view */
+	}
+
+	.navigation a {
+		text-align: center;
+        font-size: 0.68em;
+        padding: 0px;
+	}
+	
+    .navigation li:first-child {
+		display: none;
+	}
+
+    .date {
+        font-size: 0.8em;
+    }
+
+    .footer-text {
         font-size: 0.9em;
     }
-
-    footer h4 {
+    
+    .update-text {
         font-size: 0.9em;
     }
 }
