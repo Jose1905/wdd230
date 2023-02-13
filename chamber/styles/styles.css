@@ -32,11 +32,6 @@ header {
     height: 100px;
 }
 
-main {
-    padding: 5%;
-    width: auto;
-}
-
 footer {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -51,6 +46,8 @@ footer {
     padding: 20px;
     column-gap: 5%;
 }
+
+/* ----------------------   Header   -------------------------- */
 
 .site-logo {
     justify-self: center;
@@ -132,6 +129,32 @@ nav {
     justify-self: center;
     font-size: 0.8em;
 }
+
+/* ----------------------   Main   -------------------------- */
+
+main {
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    row-gap: 2%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+main section, #spotlights {
+    background-color: var(--primary-color);
+    padding: 5%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: var(--secondary-color);
+}
+
+#spotlights {
+    padding: 2%;
+    display: grid;
+    row-gap: 0.5%;
+}
+
+/* ----------------------   Footer   -------------------------- */
 
 footer .site-logo {
     grid-column: 1/2;
