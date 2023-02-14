@@ -132,7 +132,15 @@ nav {
 
 /* ----------------------   Main   -------------------------- */
 
-main {
+#meeting-msg {
+    display: none;
+    font-weight: bold;
+    color: white;
+    background-color: var(--accent1-color);
+    padding: 2%;
+}
+
+.content {
     display: grid;
     grid-template-rows: repeat(5, 1fr);
     row-gap: 2%;

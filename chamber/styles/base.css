@@ -12,6 +12,14 @@
         margin-top: 10px;
     }
 
+    /* ----------------------   Main   -------------------------- */
+
+    .join-msg, .spotlight3-msg {
+        display: none;
+    }
+
+    /* ----------------------   Footer   -------------------------- */
+
     .footer-text {
         font-size: 0.7em;
     }
