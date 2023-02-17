@@ -17,6 +17,7 @@ body {
     padding: 0;
     font-family: var(--paragraph-font);
     min-width: 500px;
+    max-width: 2000px;
 }
 
 header {
@@ -160,6 +161,15 @@ main section, #spotlights {
     padding: 2%;
     display: grid;
     row-gap: 0.5%;
+}
+
+#hero-img {
+    width: 100%;
+}
+
+.hero-msg {
+    background-color: var(--accent1-color);
+    color: white;
 }
 
 /* ----------------------   Footer   -------------------------- */
