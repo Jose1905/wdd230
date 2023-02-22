@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta
         name="description"
-        content="This is the home page for Heredia's Transaction Portal, my Chamber of Commerce for the course." >
-    <title>Home Page</title>
+        content="Find pictures and information about Heredia!" >
+    <title>Discover</title>
     <link rel="shortcut icon" href="favicon.ico">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/styles.css">    
@@ -48,58 +48,36 @@
     </header>
 
     <main>
-        <p id="meeting-msg">🤝🏼 Come join us for the chamber meet and greet
-            Wednesday at 7:00 p.m.</p>
-
         <div class="content">
-            <section class="hero-msg">
-                <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                </h4>
-                <img
-                    id="hero-img"
-                    srcset="images/wdd230-org-small.jpg 2412w, images/wdd230-org-medium.jpg 4063w, images/wdd230-org.jpg 5358w"
-                    sizes="(max-width: 849px) 700px, (max-width: 1299px) 900px, 1100px"
-                    src="images/wdd230-org.jpg"
-                    alt="Dummy Picture">
+            <section class="hero-discover">
+                <h2>Discover the beauties of Heredia!</h2>
             </section>
 
-            <section class="event-msg">
-                <h4>Event</h4>
+            <section class="catholic-church">
+                <img src="images/placeholder.png" data-src="images/heredia1.jpg" alt="Catholic Church" loading="lazy">
+                <p></p>
             </section>
 
-            <section class="weather-msg">
-                <h4>Weather</h4>
+            <section class="forest">
+                <img src="images/placeholder.png" data-src="images/heredia2.jpg" alt="Forest" loading="lazy">
+                <p></p>
             </section>
 
-            <section class="news-release-msg">
-                <h4>News Release</h4>
-            </section>
-        
-            <section class="join-msg">
-                <h4>Join</h4>
+            <section class="carnival">
+                <img src="images/placeholder.png" data-src="images/heredia3.jpg" alt="Carnival" loading="lazy">
+                <p></p>
             </section>
 
-            <div id="spotlights">
-                <section class="spotlight1-msg">
-                    <h4>Spotlight 1</h4>
-                </section>
+            <section class="municipality">
+                <img src="images/placeholder.png" data-src="images/heredia4.jpg" alt="Municipality" loading="lazy">
+                <p></p>
+            </section>
 
-
-                <section class="spotlight2-msg">
-                    <h4>Spotlight 2</h4>
-                </section>
-
-
-                <section class="spotlight3-msg">
-                    <h4>Spotlight 3</h4>
-                </section>
-            </div>
-
+            <section class="park">
+                <img src="images/placeholder.png" data-src="images/heredia5.jpg" alt="Park" loading="lazy">
+                <p></p>
+            </section>
         </div>
-        
     </main>
 
     <footer>
@@ -111,8 +89,10 @@
         </a>
     </footer>
     
+    <script src="scripts/lazy-loading.js" defer></script>
     <script src="scripts/current-date.js"></script>
     <script src="scripts/last-update.js"></script>
     <script src="scripts/responsive-menu.js"></script>
+
 </body>
 </html>
