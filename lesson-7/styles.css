@@ -1,0 +1,17 @@
+.images {
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+}
+
+.images img[data-src] {
+    filter: blur(0.2em);
+}
+
+.images img {
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    filter: blur(0em);
+    transition: filter 2s;
+}
