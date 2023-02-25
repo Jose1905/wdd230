@@ -1,0 +1,40 @@
+:root {
+    --primary-color: #D7F9F1;
+    --secondary-color: #7AA095;
+    --accent1-color: #618B4A;
+    --accent2-color: #AFBC88;
+}
+
+table {
+    margin: 10px auto;
+    border: thin solid black;
+    border-collapse: collapse;
+}
+
+caption {
+    padding: 10px;
+    caption-side: bottom;
+    color: var(--accent1-color);
+    font-size: .85rem;
+}
+
+tr:first-child th {
+    background-color: var(--accent2-color);
+}
+
+th, td {
+    padding: 7px 15px;
+    border: 1px solid black;
+}
+
+th {
+    background-color: var(--secondary-color);
+}
+
+td {
+    text-align: center;
+}
+
+tbody tr:nth-child(even) {
+    background-color: var(--primary-color);
+}
