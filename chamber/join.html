@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta
         name="description"
-        content="Find pictures and information about Heredia!" >
-    <title>Discover</title>
+        content="Join our chamber of commerce by filling this brief form." >
+    <title>Join Us</title>
     <link rel="shortcut icon" href="favicon.ico">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/styles.css">    
@@ -48,36 +48,32 @@
     </header>
 
     <main>
-        <div class="content">
-            <section class="hero-discover">
-                <h2>Discover the beauties of Heredia!</h2>
-            </section>
+        <h2>Heredia's Transaction Portal member application</h2>
+        <form method="get" action="thanks.html">
+            <fieldset>
+                <legend>Applicant information</legend>
+                <label class="top">First Name* <input type="text" name="fname" required></label>
+                <label class="top">Last Name* <input type="text" name="lname" required></label>
+                <label class="top">Title <input type="text" name="title" placeholder="Business Position" ></label>
+                <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                <label class="top">Phone* <input type="tel" name="phone" placeholder="1235551234" required></label>
+            </fieldset>
 
-            <section class="catholic-church">
-                <img src="images/placeholder.png" data-src="images/heredia1.jpg" alt="Catholic Church" loading="lazy">
-                <p></p>
-            </section>
+            <fieldset>
+                <legend>Business Information</legend>
+                <label class="top">Business Name* <input type="text" name="business-name" placeholder="Your Business" required></label>
+                <div>Membership Level</div>
+                <label class="sbs"><input type="radio" name="membership-level" value="np"> NP Membership</label>
+                <!-- <p class="np-description">NP Membership is for non profit organizations and there is no fee</p> -->
+                <label class="sbs"><input type="radio" name="membership-level" value="bronze"> Bronze Membership</label>
+                <label class="sbs"><input type="radio" name="membership-level" value="silver"> Silver Membership</label>
+                <label class="sbs"><input type="radio" name="membership-level" value="gold"> Gold Membership</label>
+                <label class="top">Description <textarea name="business-description"></textarea></label>
+            </fieldset>
 
-            <section class="forest">
-                <img src="images/placeholder.png" data-src="images/heredia2.jpg" alt="Forest" loading="lazy">
-                <p></p>
-            </section>
-
-            <section class="carnival">
-                <img src="images/placeholder.png" data-src="images/heredia3.jpg" alt="Carnival" loading="lazy">
-                <p></p>
-            </section>
-
-            <section class="municipality">
-                <img src="images/placeholder.png" data-src="images/heredia4.jpg" alt="Municipality" loading="lazy">
-                <p></p>
-            </section>
-
-            <section class="park">
-                <img src="images/placeholder.png" data-src="images/heredia5.jpg" alt="Park" loading="lazy">
-                <p></p>
-            </section>
-        </div>
+            <input type="submit" value="Propose My Business" class="submitBtn">
+        </form>
+        <p class="submitted">Submitted: <span id="submission-time"></span></p>
     </main>
 
     <footer>
@@ -89,10 +85,9 @@
         </a>
     </footer>
     
-    <script src="scripts/lazy-loading.js" defer></script>
     <script src="scripts/current-date.js"></script>
     <script src="scripts/last-update.js"></script>
+    <script src="scripts/submission-time.js"></script>
     <script src="scripts/responsive-menu.js"></script>
-
 </body>
 </html>
