@@ -1,0 +1,45 @@
+:root {
+    --primary-color: #D7F9F1;
+    --secondary-color: #7AA095;
+    --accent1-color: #618B4A;
+    --accent2-color: #AFBC88;
+  
+    --heading-font: Arial, Helvetica, sans-serif;
+    --paragraph-font: "Raleway", Arial, Helvetica;
+}
+
+main{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+body {
+    margin: 0 auto;
+    background-color:white;
+    font-size: 22px;
+    padding: 0;
+    font-family: var(--paragraph-font);
+    min-width: 500px;
+    max-width: 2000px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 20px;
+    row-gap: 20px;
+    text-align: center;
+    padding: 2%;
+}
+
+.cards section {
+    background-color: var(--accent2-color);
+}
+
+.cards img {
+    margin: 10px;
+}
