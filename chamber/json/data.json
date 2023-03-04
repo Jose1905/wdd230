@@ -1,0 +1,76 @@
+{
+    "businesses": [
+      {
+        "name": "Crazy Outlet",
+        "address":"Continuo al banco nacional, Heredia, San Rafael, 40501",
+        "phoneNumber": "84742929",
+        "website": "https://crazycr.com/",
+        "imageurl": "https://crazycr.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.4fad4b2e.png&w=64&q=75",
+        "membershipLevel": "Gold"
+      },
+      {
+        "name": "POPS",
+        "address":"2V7X+V65, Heredia, San Rafael",
+        "phoneNumber": "None",
+        "website": "https://pops.co.cr/",
+        "imageurl": "https://cms.blumewebsites.com/pops/website/logo.png",
+        "membershipLevel": "Silver"
+      },
+      {
+        "name": "Imperio Barber Shop",
+        "address":"170 metros sur de la casa cural, Heredia, San Rafael",
+        "phoneNumber": "70622946",
+        "website": "https://website--5249016023177025190237-barbershop.negocio.site/?utm_source=gmb&utm_medium=referral",
+        "imageurl": "https://www.gstatic.com/bfe/apps/website/img/h/111218107-barber-tools-1440.jpg",
+        "membershipLevel": "Gold"
+      },
+      {
+        "name": "Macrobiotica Healthy Shop",
+        "address":"Av. 4, Heredia, San Rafael",
+        "phoneNumber": "22629992",
+        "website": "https://macrobiotica-healthy-shop.negocio.site/#summary",
+        "imageurl": "https://lh3.googleusercontent.com/p/AF1QipOlMr9xW3T3-uomlnGbiTUHn6OijBw1ApjtxqY-=w960-h960-n-o-v1",
+        "membershipLevel": "Bronce"
+      },
+      {
+        "name": "Shift Courier",
+        "address":"200m sur de la iglesia Heredia San Rafael, 00506",
+        "phoneNumber": "61567626",
+        "website": "https://shiftcourier.com/",
+        "imageurl": "https://shiftcourier.com/wp-content/uploads/2021/12/cropped-logo-sin-fonde.png",
+        "membershipLevel": "Gold"
+      },
+      {
+        "name": "Musmanni",
+        "address":"113 Heredia Province San Josecito, 40502",
+        "phoneNumber": "21008488",
+        "website": "https://musmanni.com/",
+        "imageurl": "https://musmanni.com/wp-content/uploads/2022/10/logo-musmanni.svg",
+        "membershipLevel": "Gold"
+      },
+      {
+        "name": "Frio Fenix",
+        "address":"2V5R+RWJ, Heredia Province, Heredia",
+        "phoneNumber": "25601655",
+        "website": "https://www.friofenix.com/",
+        "imageurl": "https://media.nidux.net/pull/250/60/3073/logoTienda30735f19a53c497c0.png",
+        "membershipLevel": "Silver"
+      },
+      {
+        "name": "Cibeles",
+        "address":"Heredia",
+        "phoneNumber": "22603176",
+        "website": "https://www.hotelcibelesresort.com/",
+        "imageurl": "https://www.hotelcibelesresort.com/wp-content/uploads/2018/08/logo-1.jpg",
+        "membershipLevel": "Gold"
+      },
+      {
+        "name": "ComproConPanda",
+        "address":"400 m sur de la municipalidad de, Heredia, San Rafael",
+        "phoneNumber": "87467000",
+        "website": "http://www.comproconpanda.com/",
+        "imageurl": "https://www.comproconpanda.com/wp-content/uploads/2020/09/Logo-Panda.jpg",
+        "membershipLevel": "Silver"
+      }
+    ]
+  }
