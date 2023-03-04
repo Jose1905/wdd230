@@ -333,3 +333,22 @@ form label.top input:required:valid {
 .submitted {
     display: none;
 }
+
+/* ----------------------   Directory   -------------------------- */
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 20px;
+    row-gap: 20px;
+    text-align: center;
+    padding: 2%;
+}
+
+.cards section {
+    background-color: var(--accent2-color);
+}
+
+.cards img {
+    margin: 10px;
+}
