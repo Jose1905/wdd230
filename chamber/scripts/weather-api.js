@@ -4,7 +4,7 @@ const captionDesc = document.querySelector('figcaption');
 const apiKey = '39f4939faa846357186f47bbb2e87e54';
 const latitude = '64.840051';
 const longitude = '-147.719976';
-const units = 'imperial';
+const units = 'metric';
 const url = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${apiKey}&units=${units}`;
 
 async function apiFetch() {

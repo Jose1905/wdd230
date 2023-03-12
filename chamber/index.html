@@ -71,7 +71,13 @@
             </section>
 
             <section class="weather-msg">
-                <h4>Weather</h4>
+                <h1>Heredia's Current Weather</h1>
+                <p>Temperature: <span id="current-temp"></span> &deg;C</p>
+                <h2>Current Condition Icon</h2>
+                <figure>
+                    <img src="" alt="" id="weather-icon" />
+                    <figcaption></figcaption>
+                </figure>
             </section>
 
             <section class="news-release-msg">
@@ -104,7 +110,7 @@
 
     <footer>
         <img class = 'site-logo' src="images/logo.webp" alt="Logo">
-        <h4 class = 'footer-text'>© 2023 | Heredia's Transaction Portal | David Vega | davarela231@gmail.com | WDD 230 Project</h4>
+        <h4 class = 'footer-text'>© 2023 | Heredia's Transaction Portal | David Vega | davarela231@gmail.com | WDD 230 Project | Weather source: openweathermap.org</h4>
         <p class = 'update-text'>Last Update: <span id="lastupdate"></span></p>
         <a href="https://www.google.com/maps/place/Municipalidad+de+San+Rafael/@10.0144107,-84.1012239,18z/data=!4m5!3m4!1s0x8fa0e54cddd742ed:0x8ab3e5ebedb6decd!8m2!3d10.0142779!4d-84.100023?hl=es-419" target="_blank">
             <img src="images/pin.png" alt="instagram icon" width="50">
@@ -114,5 +120,6 @@
     <script src="scripts/current-date.js"></script>
     <script src="scripts/last-update.js"></script>
     <script src="scripts/responsive-menu.js"></script>
+    <script src="scripts/weather-api.js"></script>
 </body>
 </html>
