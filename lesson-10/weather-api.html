@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+        name="description"
+        content="This is the home page for Heredia's Transaction Portal, my Chamber of Commerce for the course." >
+    <title>Home</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/styles.css">    
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        
+        <img class = 'site-logo' src="images/logo.webp" alt="Dummy logo">
+        <h1 class = 'site-name'>Heredia's Transaction Portal</h1>
+
+        <nav>
+            <ul class="navigation">
+                <li><a id="menu" href="#"></a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="#">Feedback</a></li>
+                <li><a href="#">History</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        
+        <div class="social">
+            <a href="https://www.facebook.com/Marve-SA-106828555227169" target="_blank">
+                <img src="images/facebook.png" alt="fb icon">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="images/instagram.png" alt="instagram icon">
+            </a>
+        </div>
+        <div class="date"></div>
+    </header>
+
+    <main>
+        <h1>OpenWeatherMap.org API Test</h1>
+        <p>The current temperature in Fairbanks, Alaska is <span id="current-temp"></span> &deg;F</p>
+        <h2>Current Condition Icon</h2>
+        <figure>
+            <img src="" alt="" id="weather-icon" />
+            <figcaption></figcaption>
+        </figure>
+    </main>
+
+    <footer>
+        <img class = 'site-logo' src="images/logo.webp" alt="Logo">
+        <h4 class = 'footer-text'>© 2023 | Heredia's Transaction Portal | David Vega | davarela231@gmail.com | WDD 230 Project</h4>
+        <p class = 'update-text'>Last Update: <span id="lastupdate"></span></p>
+        <a href="https://www.google.com/maps/place/Municipalidad+de+San+Rafael/@10.0144107,-84.1012239,18z/data=!4m5!3m4!1s0x8fa0e54cddd742ed:0x8ab3e5ebedb6decd!8m2!3d10.0142779!4d-84.100023?hl=es-419" target="_blank">
+            <img src="images/pin.png" alt="instagram icon" width="50">
+        </a>
+    </footer>
+    
+    <script src="scripts/current-date.js"></script>
+    <script src="scripts/last-update.js"></script>
+    <script src="scripts/responsive-menu.js"></script>
+    <script src="scripts/weather-api.js"></script>
+</body>
+</html>
