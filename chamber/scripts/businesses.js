@@ -9,7 +9,7 @@ async function getBusinessData () {
 const displayBusinesses = (businesses) => {
     const cards = document.querySelector('div.cards');
 
-    businesses.foreach((business) => {
+    businesses.forEach((business) => {
         let card = document.createElement('section');
         let picture = document.createElement('img');
         let address = document.createElement('h3');
