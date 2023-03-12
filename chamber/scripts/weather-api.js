@@ -27,7 +27,7 @@ async function apiFetch() {
   function displayResults(weatherData) {
     currentTemp.innerHTML = `<strong>${weatherData.main.temp.toFixed(0)}</strong>`;
     windSpeed.innerHTML = `<strong>${weatherData.wind.speed.toFixed(0)}</strong>`;
-    windChill.innerHTML = `<strong>${calculateWindChill(weatherData.main.temp.toFixed(0), weatherData.wind.speed.toFixed(0)).toFixed(2)}</strong>`;
+    windChill.innerHTML = `<strong>${calculateWindChill(weatherData.main.temp.toFixed(0), weatherData.wind.speed.toFixed(0))}</strong>`;
 
     const iconsrc = `https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`;
     const desc = weatherData.weather[0].description;
@@ -38,10 +38,10 @@ async function apiFetch() {
   }
 
   function calculateWindChill(t, w) {
-    if (t > 20) {
-      return 'N/A';
+    if (t < 10) {
+      return (13.12 + 0.6215*t - 11.37*w**0.16 + 0.3965*t*w**0.16).toFixed(2);
     } else {
-      return 13.12 + 0.6215*t - 11.37*w**0.16 + 0.3965*t*w**0.16;
+      return 'N/A';
     }
   }
   
