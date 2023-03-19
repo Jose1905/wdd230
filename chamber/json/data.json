@@ -65,12 +65,12 @@
       "membershipLevel": "Gold"
     },
     {
-      "name": "ComproConPanda",
-      "address":"400 m sur de la municipalidad de, Heredia, San Rafael",
-      "phoneNumber": "87467000",
-      "website": "http://www.comproconpanda.com/",
-      "imageurl": "https://www.comproconpanda.com/wp-content/uploads/2020/09/Logo-Panda.jpg",
-      "membershipLevel": "Silver"
+      "name": "Ferretería Brenes",
+      "address":"Heredia Centro 100 mts oeste del BN",
+      "phoneNumber": "22616055",
+      "website": "https://ferreteriabrenes.com/",
+      "imageurl": "https://ferreteriabrenes.com/wp-content/uploads/2019/03/brenes-logo.png",
+      "membershipLevel": "Gold"
     }
   ]
 }

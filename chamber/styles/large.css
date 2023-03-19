@@ -1,6 +1,22 @@
 @media (min-width: 1300px) {
-    .site-name {
-        font-size: 1.2em;
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+    
+    h3 {
+        font-size: 1.7rem;
+    }
+    
+    h4 {
+        font-size: 1.6em;
+    }
+    
+    p {
+        font-size: 1.4em;
     }
 
     .navigation a {
@@ -50,7 +66,7 @@
         grid-column: 4/5;
         grid-row: 1/4;
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
     }
 
     .spotlight3-msg {
@@ -59,11 +75,14 @@
 
     /* ----------------------   Footer   -------------------------- */
 
-    .footer-text {
-        font-size: 1.2em;
+    /* ----------------------   Directory   -------------------------- */
+
+    .cards {
+        grid-template-columns: repeat(3, 1fr);
     }
-    
-    .update-text {
-        font-size: 1.2em;
+
+    .cards img {
+        width: 100px;
+        height: auto;
     }
 }

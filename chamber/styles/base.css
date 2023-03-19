@@ -1,6 +1,22 @@
 @media (max-width: 850px) {
-    .site-name {
-        grid-column: 2/4;
+    h1 {
+        font-size: 1.5rem;
+    }
+    
+    h2 {
+        font-size: 1.3rem;
+    }
+    
+    h3 {
+        font-size: 1.2rem;
+    }
+    
+    h4 {
+        font-size: 1.1em;
+    }
+    
+    p {
+        font-size: 1em;
     }
 
     .date {
@@ -18,25 +34,34 @@
         display: none;
     }
 
-    /* ----------------------   Footer   -------------------------- */
+    /* ----------------------   Discover   -------------------------- */
 
-    .footer-text {
-        font-size: 0.7em;
+    .discover-cards {
+        grid-template-columns: 1fr;
+    }
+
+    /* ----------------------   Contact   -------------------------- */
+
+    .site {
+        height: 160px;
     }
     
-    .update-text {
-        font-size: 0.7em;
+    .site img {
+        height: 140px;
     }
 
-    h2 {
-        font-size: 1.5em;
+    /* ----------------------   Directory   -------------------------- */
+
+    .cards {
+        display: block;
     }
 
-    h3 {
-        font-size: 1.0em;
+    .cards section {
+        background-color: var(--accent2-color);
+        margin-top: 2%;
     }
 
-    h4 {
-        font-size: 0.8em;
+    .cards img {
+        width: 200px;
     }
 }
