@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+        name="description"
+        content="Bountiful Foods' home page." >
+    <title>Home</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/styles.css">    
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Quicksand:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        
+        <img class = 'site-logo' src="images/logo.webp" alt="Dummy logo">
+        <h1 class = 'site-name'>Bountiful Foods</h1>
+
+        <nav>
+            <ul class="navigation">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="fresh.html">Fresh</a></li>
+                <li><a href="about-us.html">About us</a></li>
+            </ul>
+        </nav>
+        
+        <div class="social">
+            <a href="https://www.facebook.com/josedavid.vega.79/" target="_blank">
+                <img src="images/facebook.png" alt="fb icon">
+            </a>
+            <a href="https://www.instagram.com/david_vega19/" target="_blank">
+                <img src="images/instagram.png" alt="instagram icon">
+            </a>
+            <a href="https://twitter.com/dvegasud" target="_blank">
+                <img src="images/twitter.png" alt="twitter icon">
+            </a>
+        </div>
+        <div class="date"></div>
+    </header>
+
+    <main>
+        <div class="content">
+            <section class="hero-msg">
+                <h3>Welcome to Bountiful Foods, the fruit paradise in California! If you are looking for a healthier lifestyle, this is the place for you!</h3>
+                <img id="hero-img" src="images/fruit-hero.jpg" alt="Fruits">
+            </section>
+
+            <section class="area-info">
+                <h2>Carlsbad, California</h2>
+                <h3>Visit us in this beautiful coastal area. There are many beautiful trails to enjoy</h3>
+                <ul class="trails">
+                    <li>Half Moon Bay: 3.7 miles</li>
+                    <li>Cowell-Purisima: 3.6 miles</li>
+                    <li>West Shoreline Access: 4 miles</li>
+                    <li>California Coastal Trail: 3.7 miles</li>
+                    <li>Vista Point Trail: 2.8 miles</li>
+                </ul>
+            </section>
+
+            <section class="weather-msg">
+                <h2>Carlsbad's Weather</h2>
+                <div class="current-weather">
+                    <h3>Current</h3>
+                    <figure>
+                        <img src="" alt="" id="weather-icon" />
+                        <figcaption></figcaption>
+                    </figure>
+                    <div class="weather-data">
+                        <p>Temperature:<br><span id="current-temp"></span> &deg;C</p>
+                        <p>Humidity:<br> <span id="humidity"></span>%</p>
+                    </div>
+                </div>
+                <div class="forecast">
+                    <h3>Tomorrow</h3>
+                    <div class="weather-data">
+                        <p>Temperature:<br><span id="tomorrow-temp"></span> &deg;C</p>
+                    </div>
+                    <h3>2 Days forward</h3>
+                    <div class="weather-data">
+                        <p>Temperature:<br><span id="two-days-temp"></span> &deg;C</p>
+                    </div>
+                    <h3>3 Days forward</h3>
+                    <div class="weather-data">
+                        <p>Temperature:<br><span id="three-days-temp"></span> &deg;C</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="drink-mix">
+                <a href="fresh.html">
+                    <h2>Make your own shake!</h2>
+                </a>
+                <h3>Build your own specialty drink! Select up to 3 different fruits to include in your shake and fill the information for the delivery</h3>
+                <img id="hero-img" src="images/shake.jpg" alt="Rats">
+            </section>
+
+            <section class="submitted-drinks">
+                <h2>You have submitted a total of<br><span id="amount-drinks"></span><br>Drinks</h2>
+            </section>
+        </div>
+        
+    </main>
+
+    <footer>
+        <img class = 'site-logo' src="images/logo.webp" alt="Logo">
+        <h4 class = 'footer-text'>© 2023 | Bountiful Foods | David Vega | davarela231@gmail.com | WDD 230 Project | Weather source: openweathermap.org</h4>
+        <p class = 'update-text'>Last Update: <span id="lastupdate"></span></p>
+        <a href="https://www.google.com/maps/place/Municipalidad+de+San+Rafael/@10.0144107,-84.1012239,18z/data=!4m5!3m4!1s0x8fa0e54cddd742ed:0x8ab3e5ebedb6decd!8m2!3d10.0142779!4d-84.100023?hl=es-419" target="_blank">
+            <img src="images/pin.png" alt="instagram icon" width="50">
+        </a>
+    </footer>
+    
+    <script src="scripts/current-date.js"></script>
+    <script src="scripts/last-update.js"></script>
+    <script src="scripts/weather-api.js"></script>
+    <script src="scripts/lazy-loading.js"></script>
+</body>
+</html>

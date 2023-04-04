@@ -1,0 +1,347 @@
+/*  Main */
+
+:root {
+    --primary-color: #FAE1E1;
+    --secondary-color: #101C42;
+    --accent1-color: #A6C794;
+    --accent2-color: #AFBC88;
+  
+    --heading-font: 'Lobster', sans-serif, Helvetica;
+    --paragraph-font: 'Quicksand', sans-serif, Helvetica;
+}
+
+h1 {
+    font-family: var(--heading-font);
+    font-size: 2rem;
+}
+
+h2 {
+    font-family: var(--heading-font);
+    font-size: 1.2rem;
+}
+
+h3 {
+    font-family: var(--paragraph-font);
+    font-size: 1.2rem;
+}
+
+h4 {
+    font-family: var(--paragraph-font);
+    font-size: 1em;
+}
+
+p {
+    font-family: var(--paragraph-font);
+    font-size: 1em;
+}
+
+a {
+    font-family: var(--paragraph-font);
+}
+
+body {
+    margin: 0 auto;
+    background-color:white;
+    padding: 0;
+    font-family: var(--paragraph-font);
+    width: 80%;
+    min-width: 500px;
+    max-width: 2000px;
+}
+
+header {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    background-color: var(--secondary-color);
+    justify-self: center;
+    align-self: center;
+    padding: 20px;
+    column-gap: 5%;
+    height: 100px;
+}
+
+main{
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    color: white;
+    font-family: var(--paragraph-font);
+    background-color:var(--secondary-color);
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+    font-size: 0.6em;
+    padding: 20px;
+    column-gap: 5%;
+}
+
+/* ----------------------   Header   -------------------------- */
+
+.site-logo {
+    justify-self: center;
+    align-self: center;
+    width: 100px;
+    grid-row: 1/3;
+}
+
+.site-name {
+    grid-column: 2/4;
+    text-align: left;
+    align-self: center;
+    margin: 0;
+}
+
+nav {
+    background-color: transparent;
+    grid-column: 4/5;
+    font-size: 0.6em;
+    align-self: center;
+}
+
+.navigation {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    column-gap: 5px;
+}
+
+.navigation li {
+    display: block; /* change state in small view */
+}
+
+.navigation a {
+    text-align: center;
+    font-size: 0.9em;
+    padding: 0px;
+}
+
+.navigation a:link {
+	color: var(--primary-color);
+}
+
+.navigation a:visited, a:hover {
+	color: var(--accent1-color);
+}
+
+nav ul {
+    padding-left: 0px;
+}
+
+.social {
+    grid-column: 4/5;
+    grid-row: 2/3;
+    justify-self: center;
+    display: flex;
+    column-gap: 5px;
+}
+
+.social a img {
+    width: 40px;
+}
+
+.date {
+    grid-column: 2/4;
+    align-self: center;
+    justify-self: center;
+    font-size: 0.8em;
+}
+
+/* ----------------------   Main   -------------------------- */
+
+.content {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 2%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+main section {
+    background-color: var(--primary-color);
+    padding: 20px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: var(--secondary-color);
+}
+
+#hero-img {
+    margin-top: 30px;
+    width: 100%;
+}
+
+.hero-msg {
+    background-color: var(--accent1-color);
+    color: var(--secondary-color);
+}
+
+/* ----------------------   Footer   -------------------------- */
+
+footer .site-logo {
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+
+.footer-text {
+    height: 40px;
+    grid-column: 2/4;
+    grid-row: 1/2;
+}
+
+.update-text {
+    height: 40px;
+    grid-column: 2/4;
+    grid-row: 2/3;
+}
+
+footer a {
+    grid-column: 4/5;
+    grid-row: 1/3;
+    align-self: center;
+}
+
+/* ----------------------   Form   -------------------------- */
+
+form fieldset {
+    margin: 2rem 0;
+    border: 1px solid var(--accent1-color);
+    padding: .5rem 2%;
+    border-radius: 5px;
+}
+
+.fruit-select {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+form label.top, form div {
+    display: block;
+    padding-top: 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+form label.top input, form label.top select, textarea {
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0,0,0,0.1);
+}
+
+textarea {
+    width: 90%;
+    max-width: 50rem;
+    height: 15rem;
+}
+
+form label.sbs {
+    display: block;
+    padding: .75rem 0;
+    color: #555;
+}
+
+form input.submitBtn {
+    border: none;
+    background-color: var(--accent1-color);
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+}
+
+form label.top input:required {
+    border: red solid 2px;
+
+}
+
+form label.top input:required:valid {
+    border: green solid 2px;
+}
+
+.submitted {
+    display: none;
+}
+
+/* ----------------------   Weather   -------------------------- */
+
+.weather-msg {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10px;
+}
+
+.weather-msg h2 {
+    grid-column: 1/3;
+    margin: 0px;
+}
+
+figure {
+    margin: 0px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.weather-data {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.weather-data p {
+    margin: 0px;
+}
+
+/* ----------------------   Contact   -------------------------- */
+
+.site {
+    padding: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: var(--accent1-color);
+    border-radius: 10px;
+    height: 300px;
+}
+
+.site img {
+    padding: 10px;
+    float: left;
+    height: 280px;
+    border-radius: 20px;
+}
+
+.contact-methods {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.contact-methods a {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.contact-methods a p {
+    padding-left: 20px;
+}
+
+/* ----------------------   Drink Summary   -------------------------- */
+
+.drink-summary {
+    visibility: visible;
+}

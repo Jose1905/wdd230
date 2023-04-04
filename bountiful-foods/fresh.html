@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+        name="description"
+        content="Build your specialty drink." >
+    <title>Fresh</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/styles.css">    
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Quicksand:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        
+        <img class = 'site-logo' src="images/logo.webp" alt="Dummy logo">
+        <h1 class = 'site-name'>Bountiful Foods</h1>
+
+        <nav>
+            <ul class="navigation">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="fresh.html">Fresh</a></li>
+                <li><a href="about-us.html">About us</a></li>
+            </ul>
+        </nav>
+        
+        <div class="social">
+            <a href="https://www.facebook.com/josedavid.vega.79/" target="_blank">
+                <img src="images/facebook.png" alt="fb icon">
+            </a>
+            <a href="https://www.instagram.com/david_vega19/" target="_blank">
+                <img src="images/instagram.png" alt="instagram icon">
+            </a>
+            <a href="https://twitter.com/dvegasud" target="_blank">
+                <img src="images/twitter.png" alt="twitter icon">
+            </a>
+        </div>
+        <div class="date"></div>
+    </header>
+
+    <main>
+        <h2>Order your specialty drink by filling this brief form</h2>
+        <form onsubmit="return false">
+            <fieldset>
+                <legend>Personal information</legend>
+                <label class="top">First Name* <input type="text" name="fname" id="fname" required></label>
+                <label class="top">Email* <input type="email" name="email" id="email" placeholder="someone@gmail.com" required></label>
+                <label class="top">Phone* <input type="tel" name="phone" id="phone" placeholder="1235551234" required></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Order description</legend>
+                <label for="fruit-select">Choose 3 fruits</label>
+                <div class="fruit-select">
+                    <select name="fruit" id="fruit1" required>
+                        <option value="">--Please choose an option--</option>
+                    </select>
+                    
+                    <select name="fruit" id="fruit2" required>
+                        <option value="">--Please choose an option--</option>
+                    </select>
+                    
+                    <select name="fruit" id="fruit3" required>
+                        <option value="">--Please choose an option--</option>
+                    </select>
+                </div>
+                <label class="top">Special instructions <textarea name="special-instructions" id="special-instructions"></textarea></label>
+            </fieldset>
+
+            <input type="submit" value="Order Drink" class="submitBtn" onclick="getInputs()">
+        </form>
+
+        <section class="drink-summary" visibility="hidden">
+            <h2>First name: <span id="sum-fname"></span></h2>
+            <h2>Email: <span id="sum-email"></span></h2>
+            <h2>Phone: <span id="sum-phone"></span></h2>
+            <h2>Fruits: <span id="sum-fruits"></span></h2>
+            <h2>Special instructions: <span id="sum-instructions"></span></h2>
+            <h2>Date: <span id="sum-date"></span></h2>
+            <div class="drink specifications">
+                <h2>Carbohydrates: <span id="sum-carbohydrates" value="0"></span></h2>
+                <h2>Protein: <span id="sum-protein" value="0"></span></h2>
+                <h2>Fat: <span id="sum-fat" value="0"></span></h2>
+                <h2>Sugar: <span id="sum-sugar" value="0"></span></h2>
+                <h2>Calories: <span id="sum-calories" value="0"></span></h2>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <img class = 'site-logo' src="images/logo.webp" alt="Logo">
+        <h4 class = 'footer-text'>© 2023 | Bountiful Foods | David Vega | davarela231@gmail.com | WDD 230 Project | Weather source: openweathermap.org</h4>
+        <p class = 'update-text'>Last Update: <span id="lastupdate"></span></p>
+        <a href="https://www.google.com/maps/place/Municipalidad+de+San+Rafael/@10.0144107,-84.1012239,18z/data=!4m5!3m4!1s0x8fa0e54cddd742ed:0x8ab3e5ebedb6decd!8m2!3d10.0142779!4d-84.100023?hl=es-419" target="_blank">
+            <img src="images/pin.png" alt="instagram icon" width="50">
+        </a>
+    </footer>
+    
+    <script src="scripts/fruits-api.js"></script>
+    <script src="scripts/current-date.js"></script>
+    <script src="scripts/last-update.js"></script>
+    <script src="scripts/lazy-loading.js"></script>
+</body>
+</html>

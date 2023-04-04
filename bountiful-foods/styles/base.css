@@ -34,14 +34,6 @@
         display: none;
     }
 
-    
-
-    /* ----------------------   Discover   -------------------------- */
-
-    .discover-cards {
-        grid-template-columns: 1fr;
-    }
-
     /* ----------------------   Contact   -------------------------- */
 
     .site {
@@ -50,20 +42,5 @@
     
     .site img {
         height: 140px;
-    }
-
-    /* ----------------------   Directory   -------------------------- */
-
-    .cards {
-        display: block;
-    }
-
-    .cards section {
-        background-color: var(--accent2-color);
-        margin-top: 2%;
-    }
-
-    .cards img {
-        width: 200px;
     }
 }
