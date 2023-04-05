@@ -51,4 +51,17 @@
         grid-column: 1/3;
         grid-row: 1/2;
     }
+
+    /* ----------------------   About us   -------------------------- */
+
+    .contact-methods {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .contact-methods h1 {
+        grid-column: 1/5;
+        text-align: center;
+        background-color: var(--accent1-color);
+        padding: 10px;
+    }
 }
